@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
+  <title>Jekyll CMS</title>
 
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0/dist/cms.css" />
 
@@ -12,7 +12,26 @@
 <body>
   <script src="https://unpkg.com/netlify-cms@^1.0/dist/cms.js"></script>
   <script>
-  CMS.registerPreviewStyle("/assets/main.css");
-</script>
+    var PostPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'image']);
+        var bg = image && this.props.getMedia(image);
+        return h('div', {},
+          h('div', {className: "cover"},
+            h('h1', {}, entry.getIn(['data', 'title'])),
+            bg ? h('img', {src: bg.toString()}) : null
+          ),
+          h('p', {},
+            h('small', {}, "Written " + entry.getIn(['data', 'date']))
+          ),
+          h('div', {"className": "text"}, this.props.widgetFor('body'))
+        );
+      }
+    });
+
+    CMS.registerPreviewStyle("/assets/main.css");
+    CMS.registerPreviewTemplate("post", PostPreview);
+    </script>
 </body>
 </html>

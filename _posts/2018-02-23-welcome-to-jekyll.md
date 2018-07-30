@@ -2,6 +2,7 @@
 layout: post
 title: Welcome to Jekyll!
 categories: jekyll update
+date: 2018-02-23
 ---
 test
 
