@@ -11,7 +11,7 @@ Studio Plietsch entfernte zunächst alle überflüssigen Wände und Einbauten wo
 
 Der dreiseitig beflieste Treseneinbau nimmt nicht nur die beiden konkurrierenden Gebäudefluchten in seiner Form auf, sondern dient auch bei gemeinsamen Kochabenden als Mittelpunkt.
 
-![Loft Essbereich](/img/02-SP_0154c_1000px.jpg){:class="img-responsive"}
+![Loft Essbereich](/img/02-SP_0154c_1000px.jpg)
 
 ![null](/img/13-SP_0271b_500px.jpg)
 
