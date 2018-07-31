@@ -1,0 +1,300 @@
+* {
+    //text-decoration: none;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 100ms ease;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #F5F5F5;
+    display: flex;
+    min-height: 100%;
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: 1200px;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    //border: 1px solid red;
+}
+
+header {
+    margin: 0 auto;
+}
+
+div.logo {
+    margin: 7vh auto 2vh auto;
+    padding: 0 6vw;
+    max-width: 100%;
+}
+
+img#logo {
+    width: 350px;
+    max-width: 100%;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 300;
+    flex-basis: 100px;
+    text-align: center;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.main-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -2px;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+/* Content */
+
+section#body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 750px;
+    margin: 0 5vw;
+}
+
+.contact-container{
+display: flex;
+flex-flow: row nowrap;
+}
+
+.left, .right {
+    flex: 1;
+    margin-top: 30px;
+}
+
+.left {
+    padding-right: 15px;
+}
+
+.right {
+    padding-left: 15px;
+    display: flex;
+flex-flow: column nowrap;
+}
+
+.right p {
+    column-count: 1;
+    text-align: left;
+}
+
+h1{
+    font-family: Garamond, serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0px 0 20px 0;
+}
+
+h2{
+    font-family: Garamond, serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 30px 0 20px 0;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    text-align: left;
+    column-count: 1;
+    //display: inline-block;
+    //float:left;
+    column-gap: 30px;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.image-container {
+    margin-bottom: 10px;
+}
+
+.multiImages {
+    display: inline-flex;
+}
+
+.multiImages .image-container:last-child {
+    margin-left: 10px;
+}
+
+footer{
+    bottom: 0px;
+    padding: 2rem 0;
+    margin: 0 6vw;
+    background-color: #fff;
+    text-align: center;
+}
+
+footer .nowrap {
+    white-space: nowrap;
+}
+
+footer span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+@media screen and
+    (max-width: 500px){
+    p {
+        column-count: 1;
+        margin-top: 20px;
+    }
+    h1{
+        margin: 30px 0 20px 0;
+    }
+    h2{
+        margin: 30px 0 0px 0;
+    }
+    img#logo {
+        padding: 0 2vw;
+    }
+    nav {
+        margin: 5px 0 20px 0;
+    }
+    nav a {
+        padding: 0 3vw;
+    }
+    .multiImages {
+        display: block;
+    }
+    .multiImages .image-container:last-child {
+        margin-left: 0px;
+        margin-top: 6px;
+    }
+    .left, .right {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .contact-container{
+        flex-flow: column nowrap;
+        }
+}
+
+@media screen and
+(max-height: 900px){
+    div.logo {
+        margin: 5vh auto 1vh auto;
+        padding: 0 6vw;
+    }
+}
+
+.container#projects{
+    padding-top: 2vh;
+}
+
+.projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 -30px;
+}
+
+.project{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 30px
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+.projects h3{
+    font-family: Garamond, serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+img.project {
+    max-width: 100%;
+}
+
+#top-button {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #fff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 50px; /* Rounded corners */
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 4px 38px rgba(0,0,0,0.30);
+}
+
+#top-button img {
+    width: 25px;
+    margin-top: -3px;
+}
+
+#top-button:hover {
+    background-color: #bbb; /* Add a dark-grey background on hover */
+}

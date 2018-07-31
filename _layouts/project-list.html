@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include header.html %}
+
+  <section id="body">
+
+    <div class="container" id="projects">
+      <div class="projects">
+        {% for project in site.projects %}
+        <a href="{{ project.url }}" >
+          <div style="background-image:url(/img/{{ project.image }})" class="project"> 
+          </div>
+          <h3>{{ project.title }}</h3> </a>
+        {% endfor %}
+
+      </div>
+    </div>
+  </section>
+
+
+  {% include footer.html %}
+</body>
+
+</html>
