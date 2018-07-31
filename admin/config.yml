@@ -1,8 +1,7 @@
 backend:
-  name: github
-  repo: mkitzmann/jekyll-netlify-cms # Path to your GitHub repository
+  name: git-gateway
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
+media_folder: "img" # Folder where user uploaded files should go
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
