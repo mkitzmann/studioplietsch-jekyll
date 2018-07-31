@@ -6,12 +6,12 @@ title: Appartment Hoheluft
 
 ## Privatwohnung in Hamburg, 2017
 
-Test: Die Ausgangssituation: Eine Dialysepraxis in einem Hamburger 90er Jahre Bau mit verbauten Räumen und chaotischen Fluchten. Die Bauherren wünschten sich Offenheit und Licht und einen großen Wohnraum, der Kochen, Essen, Arbeiten und Zurücklehnen vereint.
+Die Ausgangssituation: Eine Dialysepraxis in einem Hamburger 90er Jahre Bau mit verbauten Räumen und chaotischen Fluchten. Die Bauherren wünschten sich Offenheit und Licht und einen großen Wohnraum, der Kochen, Essen, Arbeiten und Zurücklehnen vereint.
 Studio Plietsch entfernte zunächst alle überflüssigen Wände und Einbauten wodurch der entstandene großzügige Wohnraum Tageslicht aus 3 Himmelsrichtungen erhielt. Beim Entfernen der Boden- und Wandfliesen in der Küche wurde die wunderschöne Betonoberfläche der Fassade freigelegt. Hierzu passt der gegossene Boden und die offene Leitungsverlegung in Kupferrohen.
 
 Der dreiseitig beflieste Treseneinbau nimmt nicht nur die beiden konkurrierenden Gebäudefluchten in seiner Form auf, sondern dient auch bei gemeinsamen Kochabenden als Mittelpunkt.
 
-![Loft Essbereich](/img/02-SP_0154c_1000px.jpg)
+![Loft Essbereich](/img/02-SP_0154c_1000px.jpg){:class="img-responsive"}
 
 ![null](/img/13-SP_0271b_500px.jpg)
 
