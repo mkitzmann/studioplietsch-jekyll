@@ -27,6 +27,17 @@ collections: # A list of collections the CMS should be able to edit
             fields: 
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Alternative Text", name: "alt", widget: "string"}
-
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "contact/index.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+          - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Contact", name: "contact", widget: "markdown"}
     meta: # Meta data fields. Just like fields, but without any preview element
 
