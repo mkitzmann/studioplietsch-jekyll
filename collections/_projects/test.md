@@ -4,7 +4,7 @@ title: test projecte
 thumbnail: /img/02-SP_0154c_1000px.jpg
 rows:
   - images:
-      - image: img/02-SP_0154c_1000px.jpg
+      - image: /img/02-SP_0154c_1000px.jpg
     text: >-
       ## Privatwohnung in Hamburg, 2017 
 
