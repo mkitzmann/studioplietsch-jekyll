@@ -14,9 +14,16 @@
           {% for row in page.rows %}
           <div class="project-images">
             {% for image in row.images %}
-            <div class="project-image-wrapper">
-              <img src="{{ image.image }}" alt="">
-            </div>
+                
+              {% assign path = image.image %}
+
+              {% responsive_image_block %}
+                path: {{ path }}
+                {% if title %}
+                title: {{ title }}
+                {% endif %}
+              {% endresponsive_image_block %}
+              
             {% endfor %}
           </div>
 

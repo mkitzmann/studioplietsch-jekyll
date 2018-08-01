@@ -222,7 +222,7 @@ footer span{
         flex-direction: column;
     }
 
-    .project-image-wrapper {
+    .image-wrapper {
         margin-right: 0 !important;
         margin-bottom: 15px;
     }
@@ -282,13 +282,12 @@ footer span{
     max-width: 100%;
 }
 
-.project-image-wrapper {
-    flex: 1;
+.image-wrapper {
     margin-right: 15px;
     margin-bottom: 15px;
 }
 
-.project-image-wrapper:last-child {
+.image-wrapper:last-child {
     margin-right: 0;
 }
 
