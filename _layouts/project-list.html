@@ -14,7 +14,7 @@
       <div class="projects">
         {% for project in site.projects %}
         <a href="{{ project.url }}" >
-          <div style="background-image:url(/img/resized/240{{ project.thumbnail }})" class="project"> 
+          <div style="background-image:url(/img/resized/240{{ project.thumbnail | replace: '/img', ''}})" class="project"> 
           </div>
           <h3>{{ project.title }}</h3> </a>
         {% endfor %}

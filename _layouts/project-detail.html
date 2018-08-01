@@ -18,12 +18,12 @@
               {% assign path = image.image %}
 
               {% responsive_image_block %}
-                path: {{ path }}
+                path: {{ path | replace: '/img', 'img' }}
                 {% if title %}
                 title: {{ title }}
                 {% endif %}
               {% endresponsive_image_block %}
-              
+
             {% endfor %}
           </div>
 
