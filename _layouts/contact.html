@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+  {% include header.html %}
+
+  <section id="body">
+    <div class="container">
+      <div class="contact-container">
+        <div class="left">
+            {% assign path = page.image %}
+            {% assign alt = page.alt %}
+
+            {% responsive_image_block %}
+              path: {{ path | replace: '/img', 'img' }}
+              alt: {{ alt }}
+              {% if title %}
+              title: {{ title }}
+              {% endif %}
+            {% endresponsive_image_block %}
+
+        </div>
+        <div class="right">
+            {{ page.contact | markdownify }}
+        </div>
+      </div>
+      {{ content }}
+
+    </div>
+</section>
+
+  {% include footer.html %}
+</body>
+
+</html>
