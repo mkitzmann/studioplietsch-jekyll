@@ -14,14 +14,17 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{slug}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
-      - {label: "test", name: "title", widget: "string", tagname: "h2"}
-      - label: "Address"
-        name: "address"
-        widget: "object"
+      - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+      - label: "Test"
+        name: "test"
+        widget: "list"
         fields: 
-          - {label: "Street Address", name: "street", widget: "string"}
-          - {label: "City", name: "city", widget: "string"}
-          - {label: "Postal Code", name: "post-code", widget: "string"}
+          - {label: "Text", name: "text", widget: "markdown"}
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields: 
+              - {label: "Image", name: "image", widget: "image"}
 
     meta: # Meta data fields. Just like fields, but without any preview element
 
