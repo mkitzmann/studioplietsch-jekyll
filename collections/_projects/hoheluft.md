@@ -2,7 +2,7 @@
 layout: project-detail
 title: Appartment Hoheluft
 ---
-![Küchenloft](/img/04-SP_0169b_1000px.jpg)
+![Küchenloft](/img/04-SP_0169b_1000px.jpg?test)
 
 ## Privatwohnung in Hamburg, 2017
 
