@@ -26,6 +26,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "list"
             fields: 
               - {label: "Image", name: "image", widget: "image"}
+              - {label: "Alternative Text", name: "alt", widget: "string"}
 
     meta: # Meta data fields. Just like fields, but without any preview element
 

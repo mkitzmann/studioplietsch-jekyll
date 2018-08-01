@@ -1,6 +1,7 @@
 ---
 layout: project-detail
 title: test projecte
+thumbnail: 02-SP_0154c_1000px.jpg
 rows:
   - images:
       - image: img/02-SP_0154c_1000px.jpg
