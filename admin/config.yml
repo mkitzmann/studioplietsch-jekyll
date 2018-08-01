@@ -34,8 +34,16 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contact"
         name: "contact"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
           - {label: "Title", name: "title", widget: "string", tagname: "h2"}
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Contact", name: "contact", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - file: "index.md"
+        label: "Studio"
+        name: "studio"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Title", name: "title", widget: "string", tagname: "h2"}
+          - {label: "Image", name: "image", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
