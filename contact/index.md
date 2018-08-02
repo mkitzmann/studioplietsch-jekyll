@@ -2,7 +2,27 @@
 layout: contact
 title: Kontakt
 image: /img/12-SP_0266b_500px.jpg
-contact: "# Kontaktdaten\n\nSTUDIO plietsch\nSchlankreye 38\n20144 Hamburg\n\nT 040 319 77 919    \n\ninfo@studioplietsch.de\n\nwww.studioplietsch.de\n\nSt.Nr. 42/275/04051\n\nInhaber:\n\nClara Zachariassen\n\nDipl. Ing. Innenarchitektin\n\nMitglied der Architektenkammer Hamburg\n\nWebdesign + Fotografie:\n\nMoritz Kitzmann\nwww.kitzmann.io"
+contact: >-
+    # Kontaktdaten
+    
+    STUDIO plietsch
+    Schlankreye 38
+    20144 Hamburg
+    T 040 319 77 919    
+    
+    info@studioplietsch.de
+    nwww.studioplietsch.de
+    
+    St.Nr. 42/275/04051
+    
+    Inhaber:
+    Clara Zachariassen
+    Dipl. Ing. Innenarchitektin
+    Mitglied der Architektenkammer Hamburg
+    
+    Webdesign + Fotografie:
+    Moritz Kitzmann
+    [www.kitzmann.io](http://www.kitzmann.io)
 ---
 ## Urheberrecht
 
