@@ -2,7 +2,7 @@
 layout: project-detail
 title: Privatwohnung in Hamburg
 thumbnail: /img/04-SP_0169b_1000px.jpg
-rows:
+sections:
   - images:
       - image: /img/04-SP_0169b_1000px.jpg
         alt: Küchenloft

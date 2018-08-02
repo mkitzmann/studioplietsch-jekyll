@@ -2,7 +2,7 @@
 layout: project-detail
 title: Test project
 thumbnail: /img/12-SP_0266b_500px.jpg
-rows:
+sections:
   - images:
       - image: /img/13-SP_0271b_500px.jpg
       - image: /img/08-sp_0046b_1000px.jpg

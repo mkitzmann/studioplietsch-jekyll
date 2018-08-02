@@ -6,7 +6,7 @@ display_url: https://studioplietsch.netlify.com
 
 collections: # A list of collections the CMS should be able to edit
   - name: "projects" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Project" # Used in the UI, ie.: "New Post"
+    label: "Projects" # Used in the UI, ie.: "New Post"
     preview_template: blog
     folder: "collections/_projects" # The path to the folder where the documents are stored
     sort: "title:asc" # Default is title:asc
@@ -16,17 +16,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "project-detail"}
       - {label: "Title", name: "title", widget: "string", tagname: "h2"}
       - {label: "Thumbnail Image", name: "thumbnail", widget: "image"}
-      - label: "Content"
-        name: "rows"
+      - label: "Sections"
+        name: "sections"
         widget: "list"
         fields: 
-          - {label: "Text", name: "text", widget: "markdown"}
           - label: "Images"
             name: "images"
             widget: "list"
             fields: 
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Alternative Text", name: "alt", widget: "string"}
+          - {label: "Text", name: "text", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:

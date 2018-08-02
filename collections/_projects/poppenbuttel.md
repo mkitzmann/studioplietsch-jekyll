@@ -2,7 +2,7 @@
 title: Dachbodenausbau Poppenbüttel
 layout: project-detail
 thumbnail: /img/180315_POP52_02_1000px.jpg
-rows:
+sections:
   - images:
       - image: /img/180315_POP52_02_1000px.jpg
         alt: Dachbodenausbau Rendering

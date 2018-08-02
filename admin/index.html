@@ -12,28 +12,36 @@
 <body>
   <script src="https://unpkg.com/netlify-cms@^2.0/dist/netlify-cms.js"></script>
   <script>
-    var PostPreview = createClass({
+    var ProjectPreview = createClass({
       render: function() {
         var entry = this.props.entry;
-        console.log(entry);
-        var image = entry.getIn(['data', 'image']);
-        var bg = image && this.props.getMedia(image);
-        var date = entry.getIn(['data', 'date']);
+        var image = entry.getIn(['data', 'thumbnail']);
+        var title = entry.getIn(['data', 'title']);
+
+
         return h('div', {},
-          h('div', {className: "cover"},
-            h('h1', {}, entry.getIn(['data', 'title'])),
-            bg ? h('img', {src: bg.toString()}) : null
-          ),
-          h('p', {},
-            h('small', {}, "Date: " + date.toLocaleDateString() )
-          ),
-          h('div', {"className": "text"}, this.props.widgetFor('body'))
+        h('div', {className: "cover"},
+        h('h1', {}, title ),
+        ),
+        h('p', {},
+          h('small', {}, "Date: " )
+        ),
+        
+
+        this.props.widgetsFor('sections').map(function(sections, index) {
+
+          console.log(sections);
+          return h('div', {},
+            h('hr', {}),
+            h('div', {}, "text" ),
+            );
+          })
         );
       }
     });
 
     CMS.registerPreviewStyle("/css/app.css");
-    CMS.registerPreviewTemplate("post", PostPreview);
+    CMS.registerPreviewTemplate("projects", ProjectPreview);
     </script>
 </body>
 </html>
