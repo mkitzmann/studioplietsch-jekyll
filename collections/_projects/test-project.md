@@ -26,5 +26,8 @@ sections:
       Kupferrohen.Der dreiseitig beflieste Treseneinbau nimmt nicht nur die
       beiden konkurrierenden Gebäudefluchten in seiner Form auf, sondern dient
       auch bei gemeinsamen Kochabenden als Mittelpunkt.
+  - images:
+      - image: /img/12-SP_0266b_500px.jpg
+    text: testen
 ---
 
