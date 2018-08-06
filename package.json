@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/mkitzmann/studioplietsch-jekyll/issues"
   },
-  "homepage": "https://github.com/mkitzmann/studioplietsch-jekyll#readme"
+  "homepage": "https://github.com/mkitzmann/studioplietsch-jekyll#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.2",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "npm": "^6.3.0"
+  }
 }
