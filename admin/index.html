@@ -27,21 +27,24 @@
           h('small', {}, "Date: " )
         ),
         
-
         this.props.widgetsFor('sections').map(function(sections, index) {
-
-          console.log(sections);
+          var text = sections.getIn(['widgets', 'text']);
+          var images = sections.getIn(['widgets', 'images', 'image'])
+          console.log(images);
           return h('div', {},
             h('hr', {}),
-            h('div', {}, "text" ),
+            h('div', {}, text ),
+
             );
-          })
+          }),
+
+          
         );
       }
     });
 
     CMS.registerPreviewStyle("/css/app.css");
-    CMS.registerPreviewTemplate("projects", ProjectPreview);
+    //CMS.registerPreviewTemplate("projects", ProjectPreview);
     </script>
 </body>
 </html>
