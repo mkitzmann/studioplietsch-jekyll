@@ -2,6 +2,7 @@
 layout: contact
 title: Kontakt
 image: /img/12-SP_0266b_500px.jpg
+alt: Tür
 contact: |-
   # Kontaktdaten
 
