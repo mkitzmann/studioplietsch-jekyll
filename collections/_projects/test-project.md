@@ -4,7 +4,7 @@ title: Test project
 thumbnail: /img/12-SP_0266b_500px.jpg
 sections:
   - images:
-      - image: /img/171101_100workingspaces_text.JPG
+      - image: /img/08-sp_0046b_1000px.jpg
       - image: /img/06-sp_0022f_500px.jpg
     text: >-
       ## Privatwohnung in Hamburg, 2017
