@@ -4,8 +4,7 @@ title: Dachbodenausbau Poppenbüttel
 thumbnail: /img/180315_POP52_02_1000px.jpg
 sections:
   - images:
-      - alt: Dachbodenausbau Rendering
-        image: /img/180315_POP52_02_1000px.jpg
+      - image: /img/180315_POP52_02_1000px.jpg
     text: >-
       ## Dachbodenausbau in Poppenbüttel, 2018
 
@@ -18,8 +17,8 @@ sections:
       wird in dem über 5 Meter hohen Raum eine besondere Tageslichtwahrnehmung
       erzielt.
   - images:
-      - image: /img/POP52_Mood_500px.jpg
-      - image: /img/180313_POP52_01_500px.jpg
+      - image: /img/pop52_bad4.jpg
+      - image: /img/pop52_bad1.jpg
   - text: >-
       ## Material und Mood
 
