@@ -1,10 +1,12 @@
+{% assign settings = site.data.settings %}
+
 <footer>
     <div class="wrapper">
-        <span class="detail"><span class="nowrap">Büro für Innenarchitektur</span><br>
-        <span class="nowrap">Schlankreye 38 - 20144 Hamburg</span><br>
-<span class="nowrap">T 040 319 77 919</span><br>    
-<a href="mailto:info@studioplietsch.de">info@studioplietsch.de</a><br>
-www.studioplietsch.de </span>
+        <span class="detail"><span class="nowrap">{{ settings.description }}</span><br>
+        <span class="nowrap">{{ settings.address.street }} - {{ settings.address.post-code }} {{ settings.address.city }}</span><br>
+<span class="nowrap">T {{ settings.phone }}</span><br>    
+<a href="mailto:{{ settings.email }}">{{ settings.email }}</a><br>
+{{ settings.web }} </span>
     </div>
 </footer>
 

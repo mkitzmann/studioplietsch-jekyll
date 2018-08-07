@@ -25,6 +25,21 @@
 
         </div>
         <div class="right">
+          <h2>Kontaktdaten</h2>
+          {% assign settings = site.data.settings %}
+          <p>{{ settings.company-title }}<br>
+            {{ settings.address.street }}<br>
+            {{ settings.address.post-code }} {{ settings.address.city }}
+          </p>
+          <p>
+              T {{ settings.phone }}<br>
+              {{ settings.email }}
+          </p>
+          <p>
+              {{ settings.web }}<br>
+              St.Nr. {{ settings.tax-number }}
+          </p>
+          
             {{ page.contact | markdownify }}
         </div>
       </div>

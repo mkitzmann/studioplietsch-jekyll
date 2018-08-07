@@ -68,4 +68,5 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Telephone Number", name: "phone", widget: "string"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "Website", name: "web", widget: "string"}
+          - {label: "Tax Number", name: "tax-number", widget: "string"}
 

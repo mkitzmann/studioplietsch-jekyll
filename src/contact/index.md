@@ -4,18 +4,6 @@ title: Kontakt
 image: /img/img_0414.jpg
 alt: Tür
 contact: |-
-  # Kontaktdaten
-
-  STUDIO plietsch  
-  Schlankreye 38  
-  20144 Hamburg 
-
-  T 040 319 77 919
-  info@studioplietsch.de 
-
-  www.studioplietsch.de  
-  St.Nr. 42/275/04051
-
   Inhaber:  
   Clara Zachariassen  
   Dipl. Ing. Innenarchitektin  
