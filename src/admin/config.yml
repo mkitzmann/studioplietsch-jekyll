@@ -57,6 +57,15 @@ collections: # A list of collections the CMS should be able to edit
         name: "settings"
         fields:
           - {label: "Company Title", name: "company-title", widget: "string", tagname: "h2"}
-          - {label: "Company Description", name: "company-desc", widget: "string"}
-          - {label: "Company Address", name: "company-address", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            fields: 
+              - {label: "Street Address", name: "street", widget: "string"}
+              - {label: "City", name: "city", widget: "string"}
+              - {label: "Postal Code", name: "post-code", widget: "string"}
+          - {label: "Telephone Number", name: "phone", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Website", name: "web", widget: "string"}
 
