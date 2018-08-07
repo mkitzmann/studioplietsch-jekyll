@@ -11,5 +11,11 @@ sections:
         image: /img/1809_yacdiamant_nacht.jpg
       - image: /img/1809_yacdiamant_innen.png
     text: "# the lighthouse\n\n\r\"at night, the whole place transformed into this\rpoetic light show wiht the monumental\rdiamond competing with the stars...\"\n\n\"i entered and suddenly everything fell\rsilent. time stood still and my mind started\rto wander. afterwards i was surprised to\rhave stayed for 40 minutes just staring at\rthe light reflecting on the water...\""
+  - images:
+      - image: /img/1809_yachotel.png
+    text: "# the hotel\n\n\r\"it was the most beautiful thing to look at the stars\rright from our bed and listen to the cicadas chirping\rand the sea far off in the distance. we left the doors to\rour little court yard open to let in the breeze. the next\rmorning we had breakfast with a couple from norway\rthat told us about a great climbing place...\""
+  - images:
+      - image: /img/1809_yacrestaurant.jpg
+    text: "# the restaurant\n\n\r\"we discussed if there could be a world without warfare while we had lunch in the cool shade\rof the restaurant. i remember the geckos on the old walls and how silent and peaceful it\rwas. we sat with a group from japan on a large table in a secluded little glass cube and i\rcould not say if i was inside or outside...\"\n\n\n\nMehr Informationen zu dem Wettbewerb und zu den Gewinnern unter [Young Architects Competition](https://www.youngarchitectscompetitions.com/other-editions/view/id/29)"
 ---
 
