@@ -4,12 +4,8 @@ export default class ProjectPreview extends React.Component {
   render() {
     const {entry, widgetFor, widgetsFor , getAsset} = this.props;
 
-    let thumbnail = entry.getIn(["data", "thumbnail"]);
-
     return <section id="body">
       <div class="container">
-
-      
 
       {widgetsFor('sections').map((section) =>
         <div>
@@ -24,9 +20,9 @@ export default class ProjectPreview extends React.Component {
           )}
           </div>
 
-          <div>
+          <p>
           {section.getIn(['widgets','text'])}
-          </div>
+          </p>
         </div>
       )}
 {/*       
