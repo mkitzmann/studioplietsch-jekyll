@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Kontakt
-image: /img/12-SP_0266b_500px.jpg
+image: /img/img_0414.jpg
 alt: Tür
 contact: |-
   # Kontaktdaten
