@@ -1,21 +1,35 @@
 import React from "react";
 
 export default class ProjectPreview extends React.Component {
-  render() {
-    const {entry, widgetFor, widgetsFor , getAsset} = this.props;
+  constructor(props) {
+    super(props);
+    this.state = {dimensions: {}};
+    this.onImgLoad = this.onImgLoad.bind(this);
+    }
 
+  onImgLoad({target:img}) {
+      this.setState({
+          aspect:img.offsetWidth/img.offsetHeight
+      });
+  }
+
+  render() {
+    const {widgetsFor , getAsset} = this.props;
+    const aspect = this.state.aspect;
+    
     return <section id="body">
       <div class="container">
 
-      {widgetsFor('sections').map((section) =>
-        <div>
+      {widgetsFor('sections').map((section, i) =>
+        <div key={i}>
           <div className="project-images">
-          {section.getIn(['data','images']).map((image) =>
-            <div className="image-wrapper">
+          {section.getIn(['data','images']).map((image, x) =>
+            <div className="image-wrapper"key={x}>
               <div>
-                {console.log(getAsset(image.get('image')))}
+                {console.log(aspect)}
+                {console.log(image.get('image'))}
               </div>
-              <img src={getAsset(image.get('image'))} />
+              <img onLoad={this.onImgLoad} style={{flex: aspect}} src={getAsset(image.get('image'))} />
             </div>
           )}
           </div>
@@ -25,6 +39,7 @@ export default class ProjectPreview extends React.Component {
           </p>
         </div>
       )}
+      
 {/*       
         {(entry.getIn(["data", "sections"]) || []).map((section, i) => 
         <div>
