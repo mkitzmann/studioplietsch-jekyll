@@ -18,8 +18,10 @@ sections:
       erzielt.
   - images:
       - image: /img/pop52_bad4.jpg
-      - image: /img/pop52_bad1.jpg
-  - text: >-
+  - images:
+      - image: /img/POP52_Mood_500px.jpg
+      - image: /img/pop52_bad2.jpg
+    text: >-
       ## Material und Mood
 
 
