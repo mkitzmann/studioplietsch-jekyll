@@ -322,3 +322,8 @@ img.project {
 #top-button:hover {
     background-color: #bbb; /* Add a dark-grey background on hover */
 }
+
+.frame-content {
+    background-color: #fff;
+    padding-top: 2rem;
+}
