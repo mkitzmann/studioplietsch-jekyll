@@ -11,41 +11,6 @@
 </head>
 <body>
   <script type="text/javascript" src="/assets/js/bundle.js" charset="utf-8"></script>
-  <script src="https://unpkg.com/netlify-cms@^2.0/dist/netlify-cms.js"></script>
-  <script>
-    var ProjectPreview = createClass({
-      render: function() {
-        var entry = this.props.entry;
-        var image = entry.getIn(['data', 'thumbnail']);
-        var title = entry.getIn(['data', 'title']);
 
-
-        return h('div', {},
-        h('div', {className: "cover"},
-        h('h1', {}, title ),
-        ),
-        h('p', {},
-          h('small', {}, "Date: " )
-        ),
-        
-        this.props.widgetsFor('sections').map(function(sections, index) {
-          var text = sections.getIn(['widgets', 'text']);
-          var images = sections.getIn(['widgets', 'images', 'image'])
-          console.log(images);
-          return h('div', {},
-            h('hr', {}),
-            h('div', {}, text ),
-
-            );
-          }),
-
-          
-        );
-      }
-    });
-
-    CMS.registerPreviewStyle("/css/app.css");
-    //CMS.registerPreviewTemplate("projects", ProjectPreview);
-    </script>
 </body>
 </html>
