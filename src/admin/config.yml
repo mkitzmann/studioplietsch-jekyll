@@ -1,8 +1,6 @@
 backend:
   name: git-gateway
 
-publish_mode: editorial_workflow
-
 media_folder: "src/img" # Folder where user uploaded files should go
 public_folder: "img"
 display_url: https://studioplietsch.netlify.com
