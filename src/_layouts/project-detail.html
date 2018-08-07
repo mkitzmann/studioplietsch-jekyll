@@ -19,7 +19,7 @@
               {% assign alt = image.alt %}
 
               {% responsive_image_block %}
-                path: {{ path | replace: '/img', 'img' }}
+                path: {{ path | replace: '/img/', 'img/' }}
                 alt: {{ alt }}
                 {% if title %}
                 title: {{ title }}
