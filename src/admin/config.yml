@@ -37,6 +37,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
           - {label: "Title", name: "title", widget: "string", tagname: "h2"}
           - {label: "Image", name: "image", widget: "image"}
+          - {label: "Image Alt Text", name: "alt", widget: "string"}
           - {label: "Contact", name: "contact", widget: "markdown"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "index.md"
@@ -46,4 +47,5 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string", tagname: "h2"}
           - {label: "Image", name: "image", widget: "image"}
+          - {label: "Image Alt Text", name: "alt", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}

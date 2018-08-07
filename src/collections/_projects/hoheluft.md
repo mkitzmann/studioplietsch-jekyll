@@ -1,6 +1,6 @@
 ---
 layout: project-detail
-title: Privatwohnung in Hamburg
+title: Privatwohnung Hamburg
 thumbnail: /img/04-SP_0169b_1000px.jpg
 sections:
   - images:
