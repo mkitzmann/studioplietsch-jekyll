@@ -27,7 +27,7 @@ sections:
   - images:
       - image: /img/12-SP_0266b_500px.jpg
       - image: /img/08-sp_0046b_1000px.jpg
-    text: testen
+    text: ''
   - images:
       - alt: testee
         image: /img/02-SP_0154c_1000px.jpg
