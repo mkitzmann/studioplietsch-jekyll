@@ -14,17 +14,35 @@
           {% for row in page.sections %}
           <div class="project-images">
             {% for image in row.images %}
-                
-              {% assign path = image.image %}
-              {% assign alt = image.alt %}
 
-              {% responsive_image_block %}
-                path: {{ path | replace: '/img/', 'img/' }}
-                alt: {{ alt }}
-                {% if title %}
-                title: {{ title }}
+                {% if row.images.size < 2 %}
+                  
+                  {% assign path = image.image %}
+                  {% assign alt = image.alt %}
+    
+                  {% responsive_image_block %}
+                    path: {{ path | replace: '/img/', 'img/' }}
+                    alt: {{ alt }}
+                    template: /_includes/responsive-image-noflex.html
+                    {% if title %}
+                    title: {{ title }}
+                    {% endif %}
+                  {% endresponsive_image_block %}  
+
+                {% else %}
+                  
+                  {% assign path = image.image %}
+                  {% assign alt = image.alt %}
+    
+                  {% responsive_image_block %}
+                    path: {{ path | replace: '/img/', 'img/' }}
+                    alt: {{ alt }}
+                    {% if title %}
+                    title: {{ title }}
+                    {% endif %}
+                  {% endresponsive_image_block %}
                 {% endif %}
-              {% endresponsive_image_block %}
+
 
             {% endfor %}
           </div>
