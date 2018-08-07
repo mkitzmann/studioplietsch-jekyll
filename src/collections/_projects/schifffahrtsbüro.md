@@ -1,9 +1,9 @@
 ---
 layout: project-detail
-title: Schifffahrtsbüro
+title: Ship Broker
 thumbnail: /img/1808_ajz_materialboard.jpg
 sections:
-  - text: '# Ship Broker Office, Hamburg 2018'
+  - text: '# Schiffsmaklerbüro, Hamburg 2018'
   - images:
       - {}
 ---
