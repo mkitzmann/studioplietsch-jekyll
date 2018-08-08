@@ -52,11 +52,14 @@ collections: # A list of collections the CMS should be able to edit
       - file: "src/projects/index.md"
         label: "Projects"
         name: "projects_list"
-        widget: 'relation'
-        collection: 'projects'
-        searchFields: ['title']
-        valueField: 'title'
-        displayFields: ['title']
+        widget: "list"
+        fields: 
+          - label: 'Projects'
+            name: 'projects_item'
+            widget: 'relation'
+            collection: 'projects'
+            searchFields: ['title']
+            valueField: 'title'
   - name: "settings"
     label: "Settings"
     files:
