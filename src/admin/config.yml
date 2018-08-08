@@ -57,12 +57,12 @@ collections: # A list of collections the CMS should be able to edit
             name: 'projects_list'
             widget: 'list'
             fields: 
-            - label: 'Projects'
-              name: 'projects_item'
-              widget: 'relation'
-              collection: 'projects'
-              searchFields: ['title']
-              valueField: 'title'
+              - label: 'Projects'
+                name: 'projects_item'
+                widget: 'relation'
+                collection: 'projects'
+                searchFields: ['title']
+                valueField: 'title'
   - name: "settings"
     label: "Settings"
     files:
