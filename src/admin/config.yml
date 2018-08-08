@@ -49,6 +49,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Image Alt Text", name: "alt", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/projects/index.md"
+        label: "Projects"
+        name: "projects_list"
+        widget: 'relation'
+        collection: 'projects'
+        searchFields: ['title']
+        valueField: 'title'
+        displayFields: ['title']
   - name: "settings"
     label: "Settings"
     files:
