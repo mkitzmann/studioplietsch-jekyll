@@ -51,15 +51,18 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/projects/index.md"
         label: "Projects"
-        name: "projects_list"
-        widget: "list"
+        name: "projects_overview"
         fields: 
-          - label: 'Projects'
-            name: 'projects_item'
-            widget: 'relation'
-            collection: 'projects'
-            searchFields: ['title']
-            valueField: 'title'
+          - label: 'Projects List'
+            name: 'projects_list'
+            widget: 'list'
+            fields: 
+            - label: 'Projects'
+              name: 'projects_item'
+              widget: 'relation'
+              collection: 'projects'
+              searchFields: ['title']
+              valueField: 'title'
   - name: "settings"
     label: "Settings"
     files:
