@@ -17,11 +17,14 @@ sections:
       gibt den Anstoß dazu. Die Räumlichkeiten mit Blick auf die Hamburger
       Binnenalster bieten von sich aus einen repräsentativen Charakter und
       werden durch hochwertige Materialien, optimierte Akustik- und
-      Lichtverhältnisse, sowie eine großzügige offene Raumgestaltung 
+      Lichtverhältnisse, sowie eine großzügige offene Raumgestaltung
+      untertsützt. 
 
 
 
 
       Fertigstellung Ende 2018
+  - images:
+      - image: /img/img_0835.jpg
 ---
 
