@@ -1,6 +1,5 @@
 ---
 projects_list:
-  - project: hoheluft
-  - project: poppenbuttel
+  - project: Skip Broker
 ---
 
