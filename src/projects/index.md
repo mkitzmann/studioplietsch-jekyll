@@ -1,5 +1,6 @@
 ---
+layout: project-list
 projects_list:
-  - project: Skip Broker
+  - project: Ship Broker
 ---
 

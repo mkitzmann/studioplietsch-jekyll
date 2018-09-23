@@ -12,16 +12,28 @@
 
     <div class="container" id="projects">
       <div class="projects">
-        {% for project in site.projects %}
+        {% for project in page.projects %}
         <a href="{{ project.url }}" >
-          <div style="background-image:url(/img/resized/240{{ project.thumbnail | replace: '/img', ''}})" class="project"> 
-          </div>
-          <h3>{{ project.title }}</h3> </a>
+          {% assign path = project.thumbnail %}
+        
+          {% responsive_image_block %}
+            path: {{ path | replace: '/img/', 'img/' }}
+            template: /_includes/responsive-image-bg.html
+            {% if title %}
+            title: {{ title }}
+            {% endif %}
+          {% endresponsive_image_block %}  
+        </div>
+        <h3>{{ project.title }}</h3> </a>
+
+
+
         {% endfor %}
 
       </div>
     </div>
   </section>
+
 
 
   {% include footer.html %}
