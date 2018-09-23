@@ -5,5 +5,6 @@ projects_list:
   - project: Military Museum
   - project: Privatwohnung Hamburg
   - project: Ship Broker
+  - project: Test project
 ---
 
