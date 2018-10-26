@@ -21,10 +21,13 @@ sections:
       untertsützt. 
 
 
-
-
-      Fertigstellung Ende 2018
+      Fertigstellung Anfang 2019
   - images:
       - image: /img/img_0835.jpg
+    text: >-
+      Der Gestaltungsprozess wurde für den Bauherren durch Bemusterung und
+      Visualisierung von Farb- und Materialvarianten sichtbar gemacht.
+  - images:
+      - image: /img/bildschirmfoto-2018-08-21-um-17.17.15.png
 ---
 
