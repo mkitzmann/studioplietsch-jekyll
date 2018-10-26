@@ -1,6 +1,6 @@
 ---
 layout: project-detail
-title: Dachbodenausbau Poppenbüttel
+title: Villa Poppenbüttel
 thumbnail: /img/180315_POP52_02_1000px.jpg
 sections:
   - images:
@@ -22,7 +22,7 @@ sections:
       - image: /img/POP52_Mood_500px.jpg
       - image: /img/pop52_bad2.jpg
     text: >-
-      ## Material und Mood
+      ## Materialien
 
 
       Möbel und Armaturen in warmen Metall- und Holzoberflächen werden mit
