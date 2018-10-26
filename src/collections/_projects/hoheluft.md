@@ -1,11 +1,11 @@
 ---
 layout: project-detail
-title: Privatwohnung Hamburg
+title: Loft Hoheluft
 thumbnail: /img/04-SP_0169b_1000px.jpg
 sections:
   - images:
-      - image: /img/04-SP_0169b_1000px.jpg
-        alt: Küchenloft
+      - alt: Küchenloft
+        image: /img/04-SP_0169b_1000px.jpg
     text: >-
       ## Privatwohnung in Hamburg, 2017 
 
@@ -20,8 +20,8 @@ sections:
 
        Hierzu passt der gegossene Boden und die offene Leitungsverlegung in Kupferrohen.Der dreiseitig beflieste Treseneinbau nimmt nicht nur die beiden konkurrierenden Gebäudefluchten in seiner Form auf, sondern dient auch bei gemeinsamen Kochabenden als Mittelpunkt.
   - images:
-      - image: /img/02-SP_0154c_1000px.jpg
-        alt: Loft Essbereich
+      - alt: Loft Essbereich
+        image: /img/02-SP_0154c_1000px.jpg
   - images:
       - image: /img/13-SP_0271b_500px.jpg
       - image: /img/12-SP_0266b_500px.jpg
@@ -32,11 +32,12 @@ sections:
       harmoniert mit dem Mix aus Familienerbstücken, Designklassikern und
       Lieblingsteilen.
   - images:
-      - image: /img/08-sp_0046b_1000px.jpg
-        alt: USM Sonderanfertigung by Studio Plietsch
+      - alt: USM Sonderanfertigung by Studio Plietsch
+        image: /img/08-sp_0046b_1000px.jpg
   - images:
-      - image: /img/06-sp_0022f_500px.jpg
-        alt: Betonwand mit Aufputzmontage
-      - image: /img/sp_0058a_500px.jpg
-        alt: schwarzer Flur mit Vintage Garderobe
+      - alt: Betonwand mit Aufputzmontage
+        image: /img/06-sp_0022f_500px.jpg
+      - alt: schwarzer Flur mit Vintage Garderobe
+        image: /img/sp_0058a_500px.jpg
 ---
+
