@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Studio
-image: /img/studioplietsch_home.jpg
+image: /img/1805_srh_6.jpg
 alt: Studio Plietsch
 ---
 ## Studio Plietsch
