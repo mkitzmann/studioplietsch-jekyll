@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Kontakt
-image: /img/img_0414.jpg
+image: /img/buero_cz.jpg
 alt: Tür
 contact: |-
   Inhaber:  
