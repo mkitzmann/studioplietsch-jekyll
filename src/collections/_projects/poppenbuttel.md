@@ -1,10 +1,10 @@
 ---
 layout: project-detail
 title: Villa Poppenbüttel
-thumbnail: /img/180315_POP52_02_1000px.jpg
+thumbnail: /img/1806_pop_4.jpg
 sections:
   - images:
-      - image: /img/180315_POP52_02_1000px.jpg
+      - image: /img/1806_pop_4.jpg
     text: >-
       ## Dachbodenausbau in Poppenbüttel, 2018
 
@@ -17,10 +17,10 @@ sections:
       wird in dem über 5 Meter hohen Raum eine besondere Tageslichtwahrnehmung
       erzielt.
   - images:
-      - image: /img/pop52_bad4.jpg
+      - image: /img/1806_pop_10.jpg
   - images:
-      - image: /img/POP52_Mood_500px.jpg
-      - image: /img/pop52_bad2.jpg
+      - image: /img/1806_pop_9.jpg
+      - image: /img/1806_pop_11.jpg
     text: >-
       ## Materialien
 
