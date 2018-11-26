@@ -1,9 +1,9 @@
 ---
 layout: project-list
 projects_list:
-  - project: Villa Poppenbüttel
-  - project: Ship Broker
-  - project: Military Museum
   - project: Loft Hoheluft
+  - project: Ship Broker
+  - project: Villa Poppenbüttel
+  - project: Military Museum
 ---
 
