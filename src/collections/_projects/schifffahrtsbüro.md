@@ -1,9 +1,10 @@
 ---
 layout: project-detail
 title: Ship Broker
-thumbnail: /img/1808_ajz_materialboard.jpg
+thumbnail: /img/1811_ajz_1.jpg
 sections:
-  - images: []
+  - images:
+      - image: /img/1811_ajz_1.jpg
     text: >-
       # Shipbroker Office, Hamburg
 
