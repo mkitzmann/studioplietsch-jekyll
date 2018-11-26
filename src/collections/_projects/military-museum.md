@@ -1,7 +1,7 @@
 ---
 layout: project-detail
 title: Military Museum
-thumbnail: /img/1809_yacdiamant_innen.jpg
+thumbnail: /img/1809_yachotel.jpg
 sections:
   - images:
       - image: /img/1809_yac_schnitt.jpg
