@@ -1,7 +1,7 @@
 ---
 layout: project-detail
-title: Military Museum
-thumbnail: /img/1809_yacrestaurant.jpg
+title: Competition Entry
+thumbnail: /img/1809_yachotel.jpg
 sections:
   - images:
       - image: /img/1809_yac_schnitt.jpg
