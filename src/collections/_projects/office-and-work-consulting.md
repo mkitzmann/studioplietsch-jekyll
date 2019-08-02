@@ -1,6 +1,6 @@
 ---
 layout: project-detail
-title: Office and Work Consulting
+title: workspace
 thumbnail: /img/1811_ajz_1.jpg
 sections:
   - images:
