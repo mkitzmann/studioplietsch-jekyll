@@ -5,5 +5,6 @@ projects_list:
   - project: Ship Broker
   - project: Villa Poppenbüttel
   - project: Military Museum
+  - project: Office and Work Consulting
 ---
 
