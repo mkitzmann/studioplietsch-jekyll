@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Studio
+title: studio
 image: /img/1805_srh_6.jpg
 alt: Studio Plietsch
 ---
@@ -8,7 +8,7 @@ alt: Studio Plietsch
 
 Studio Plietsch vereint nordische Klarheit mit modernen Methoden und traditionellen Elementen.
 
-Der Name Plietsch \[pliːʧ] kommt aus dem Norddeutschen und bedeutet clever, aufgeweckt.
+Das Wort_ plietsch_ kommt aus dem Norddeutschen und bedeutet clever, aufgeweckt.
 
 Ob ein einzelner Raum oder 2000 qm Bürofläche, Studio Plietsch begleitet Bauherren durch alle Leistungsphasen der HOAI vom Entwurf bis zur Fertigstellung und darüber hinaus, inkl. der Koordination von Fachplanern und der Qualitätssicherung der ausführenden Gewerke. Dabei gilt es wertvolle Zeitzeugen zu erhalten, Räume intelligent zu nutzen und vorhandene Materialien ihre Geschichte erzählen zu lassen.
 
