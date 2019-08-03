@@ -6,5 +6,6 @@ projects_list:
   - project: Villa Poppenbüttel
   - project: Military Museum
   - project: workspace
+  - project: residential
 ---
 
