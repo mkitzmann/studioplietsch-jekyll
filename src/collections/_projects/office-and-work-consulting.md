@@ -30,6 +30,6 @@ sections:
       Im Open Space Büro gilt es den Lärmpegel niedrig zu halten, im gläsernen
       Konferenzraum den Nachhall zu minimieren und zwischen Bürowänden
   - images:
-      - image: /img/1809_ajz_sbs.jpg
+      - image: /img/1809_ajz_sbs.png
 ---
 
