@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: kontakt
+title: Kontakt
 image: /img/buero_cz.jpg
 alt: Tür
 contact: |-
