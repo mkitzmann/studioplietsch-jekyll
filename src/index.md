@@ -1,6 +1,6 @@
 ---
 layout: home
-title: studio
+title: Studio
 image: /img/1805_srh_6.jpg
 alt: Studio Plietsch
 ---
