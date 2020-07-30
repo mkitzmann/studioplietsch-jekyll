@@ -31,7 +31,7 @@
   "dependencies": {
     "netlify-cms": "^2.1.2",
     "netlify-cms-lib-auth": "^2.0.3",
-    "npm": "^6.3.0",
+    "npm": "^6.14.6",
     "slate": "^0.37.0"
   }
 }
